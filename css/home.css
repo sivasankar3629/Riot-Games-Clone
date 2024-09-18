@@ -1,0 +1,73 @@
+.highlight {
+  position: relative;
+}
+
+.arcane-image-background {
+  width: 100%;
+}
+
+.highlight-foreground {
+  position: absolute;
+  background-image: linear-gradient(275deg,rgba(10, 10, 10, 0) 0, rgba(10, 10, 10, .8) 120%);
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.arcane-info {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.league-of-legends-logo {
+  width: 360px;
+}
+
+.heading {
+  font-family: Mark W05 Medium;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.sub-heading {
+  font-family:  Mark Pro ;
+  color: rgba(249, 249, 249, .6);
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+
+.youtube-link {
+  
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  align-items: center;
+  background-color:  rgb(186, 137, 100);
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.arrow {
+  width: 24px;
+  background-color: black;
+  border-radius: 40px;
+  padding: 12px;
+}
+
+
+.text-link {
+  font-size: 30px;
+  font-family: Mark W05 Medium;
+  padding-left: 20px;
+  color: black;
+}

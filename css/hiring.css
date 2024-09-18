@@ -1,0 +1,96 @@
+.hiring {
+  display: flex;
+  background-color: white;
+}
+
+.hiring p {
+  font-family: Mark Pro;
+  
+
+}
+
+.hiring-left {
+ 
+  margin-left:  65.2px;
+  padding: 80px 30px;
+}
+
+.hiring-info {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiring-title {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 24px;
+}
+
+.hiring-description {
+  color: rgb(119, 116, 116);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+
+}
+
+.job-vacancy {
+  display: flex;  
+  margin-bottom: 40px;
+}
+
+.vacancy-background {
+  width: 228px;
+  background-color: rgba(0, 0, 0, 0.153);
+  margin-right: 16px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.vacancy{
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+ color: rgb(84, 83, 83);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0; 
+}
+
+.explore-careers {
+  color: white;
+  background-color: #d1363a;
+  padding: 22px 16px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 228px;
+}
+
+.hiring-right {
+ height: 596px;
+}
+
+.hiring-thumpnail {
+  height: 100%;
+  object-fit: cover;
+}
+

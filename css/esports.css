@@ -1,0 +1,48 @@
+.esports {
+  padding: 0px 80px;
+  padding-bottom: 50px;
+}
+
+.esports-header {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: Mark Pro, Arial;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.esports-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.esport {
+  max-width: 663.6px;
+  flex: 1;
+  position: relative;
+}
+
+.esport:hover {
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.esport-thumpnail {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.team-logo {
+  position: absolute;
+  width: 22%;
+  top: 90px;
+  left: 50px;
+}
+
+.team-logo-image {
+  width: 100%;
+}

@@ -1,0 +1,103 @@
+.footer {
+ padding: 0px 20px 20px 20px;
+}
+
+.first-footer {
+   display: flex;
+   padding: 30px 0px;
+   border-radius: 1px;
+   border-color: rgba(255, 255, 255, 0.23);
+   border-width: 0;
+   border-bottom-width: 0.1px;
+   border-style: solid;
+}
+
+.first-footer-left {
+  width: 80px;
+  padding: 0px;
+}
+
+.riot-client-logo {
+  filter: invert(100%);
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  
+}
+
+.first-footer-middle {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+div .footer-middle-element {
+  font-family: Mark Pro;
+  color: white;
+  padding: 10px 18px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.first-footer-right {
+  display: flex;
+  padding-top: 8px;
+  align-items: start;
+}
+
+.x {
+  width: 16px;
+  padding-right: 27px;
+  filter: invert(100%);
+}
+
+.instagram {
+  width: 16px;
+  padding-right: 27px;
+}
+
+.tiktok {
+  width: 15px;
+  padding-right: 27px;
+}
+
+.linkedin {
+  width: 16px;
+  padding-right: 27px;
+  filter: invert(100%);
+}
+
+.facebook {
+  width: 9px;
+  padding-right: 27px;
+  filter: invert(100%);
+}
+
+.youtube {
+  width: 18px;
+  padding-right: 27px;
+  filter: invert(100%);
+}
+
+.second-footer {
+  display: flex;
+  padding: 30px 10px;
+}
+
+.second-footer-left {
+  flex: 1;
+  color: white;
+  font-family: Mark Pro;
+  font-size: 11px;
+}
+
+.second-footer-right {
+  color: white;
+  font-family: "Eco Coding WGL4 W01 Regular";
+  font-size: 14px;
+}
+
+.top-icon {
+  filter: invert(100%);
+  width: 8px;
+}

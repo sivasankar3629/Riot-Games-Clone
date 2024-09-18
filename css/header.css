@@ -1,0 +1,112 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.74);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 200;
+  display: flex;
+  transition: opacity 0.3s ease;
+}
+
+.header-left {
+  width: 95px;
+  height: 100%;
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.riot-games-logo {
+  filter: invert(100%) sepia() saturate(0%) hue-rotate(0deg);
+}
+
+.dropdown-icon {
+  width: 8px;
+  padding-left: 2px;
+  filter: invert(100%) opacity(50%);
+
+}
+
+.header-middle {
+  flex: 1;
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+  
+}
+
+.riot-client-logo {
+  max-width: 38px;
+  
+  height: 26px;
+  margin-left: 22px;
+
+}
+
+p {
+  padding-left: 50px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  font-family: Mark W05 Medium  ;
+}
+
+.header-right {
+  display: flex;
+  padding-right: 55px;
+}
+
+.header-right button {
+  background-color: rgb(209, 54, 57);
+  border: none;
+  margin: 22px 0px 22px 0px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+
+}
+
+.search-icon {
+  filter: invert(100%);
+  width: 20px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  margin: 22px 0px 22px 0px;
+  padding-right: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  margin-right: 7px;
+}
+
+.search-bar{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 22px 0px 22px 0px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  background-color: black;
+  font-family: Mark W05 Medium  ;
+  font-size: 12px;
+  border-right: none;
+  font-weight: 500;
+}
+
+.search-bar::placeholder {
+  color: white;
+  opacity: 1;
+  background-color: black; 
+  padding-left: 20px;
+  padding-bottom: 4px;
+}
+
+.language-icon {
+  width: 16px;
+  margin-right: 20px;
+}
